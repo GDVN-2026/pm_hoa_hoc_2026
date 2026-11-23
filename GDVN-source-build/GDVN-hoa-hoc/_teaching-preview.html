@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- GDVN application source | Author: Nguyễn Thanh Vy | Copyright (c) 2026 Nguyễn Thanh Vy. All rights reserved. Third-party licenses are preserved. -->
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Nguyễn Thanh Vy">
+  <meta name="copyright" content="Copyright © 2026 Nguyễn Thanh Vy. GDVN application code; third-party licenses preserved.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164cca">
+  <meta name="description" content="GDVN — Không gian khám phá và thực hành hóa học trực quan.">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="logo.ico">
+  <title>GDVN · Hóa học</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sky-theme.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Đến nội dung</a>
+  <aside class="site-header">
+    <a class="brand" href="#home" aria-label="GDVN — Trang chủ"><span class="brand-orb"><img class="brand-logo" src="logo.ico" alt=""></span><div><span class="brand-name">GDVN</span><small>HÓA HỌC TRỰC QUAN</small></div></a>
+    <div class="sidebar-caption">KHÔNG GIAN HỌC TẬP</div>
+    <nav id="navigation" aria-label="Các nhóm chức năng"></nav>
+    <div class="sidebar-bottom"><a class="sidebar-promo" href="#board"><span>✦</span><b>Khơi nguồn<br>ý tưởng hóa học</b><small>Quan sát · Thực hành · Khám phá</small><i>→</i></a><button id="theme" class="theme">◐ <span>Đổi sáng / tối</span></button></div>
+  </aside>
+  <div class="workspace">
+    <div class="workspace-topbar"><button id="menu" aria-label="Mở danh mục" aria-expanded="false" aria-controls="navigation">☰</button><button id="go-back" class="back-button" aria-label="Quay lại màn hình trước"><span aria-hidden="true">←</span> Quay lại</button><div class="workspace-tag"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2h8M9 2v7l-6 10q-1 3 3 3h12q4 0 3-3l-6-10V2M6 16h12"/><circle cx="11" cy="18" r="1" fill="currentColor"/><circle cx="14" cy="13" r="1" fill="currentColor"/></svg></span> Không gian hóa học</div><label class="global-search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Tìm công cụ bạn cần…" aria-label="Tìm công cụ"><kbd>Ctrl K</kbd></label><a class="profile-badge" href="#home"><img src="logo.ico" alt=""><b>GDVN</b></a></div>
+    <div class="page-trail"><a href="#home">Không gian học tập</a><span>/</span><b id="page-label">Tổng quan</b><span class="trail-note">KHÁM PHÁ · THỰC HÀNH · KIỂM CHỨNG</span></div>
+    <main id="content" tabindex="-1"></main>
+    <footer><a href="#home" class="footer-wordmark">GDVN<span>●</span></a><span>Quan sát để hiểu. Thực hành để nhớ.</span><a href="#board">Mở bảng viết ↗</a></footer>
+  </div>
+  <div id="toast" role="status"></div>
+<script>setTimeout(()=>{if(location.hash.includes('lessons'))document.getElementById('presentation-toggle').click()},600)</script></body>
+</html>

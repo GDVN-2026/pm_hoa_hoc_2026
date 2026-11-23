@@ -1,0 +1,52 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "1e7288",
+      "wall_time_seconds": 1.4864578,
+      "exit_code": 0,
+      "original_token_count": 50,
+      "output": "PASS: formula parser, all 30 reactions, ionic balancing, 118 electron configurations, pH, calculator.\nPASS: limiting reagent, excess, co-limiting amounts, gram conversion, yield and invalid inputs.\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "a883c3",
+      "wall_time_seconds": 0.9800855,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": "PASS: 34 apparatus, 12 validated templates, JSON roundtrip/invalid input, 140 unique balanced reactions and pair lookup.\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "983a33",
+      "wall_time_seconds": 4.7365042,
+      "exit_code": 0,
+      "original_token_count": 30,
+      "output": "PASS: structure templates/formulas, graph validation, valence errors and drawing → SMILES → 3D formula consistency.\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "3954a7",
+      "wall_time_seconds": 5.822552,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": "PASS: SMILES formula, coordinates, bond distances, XYZ, invalid structures, symbolic algebra/calculus and compiled workers.\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "9b2282",
+      "wall_time_seconds": 1.3786856,
+      "exit_code": 0,
+      "original_token_count": 35,
+      "output": "PASS: 118 positions/groups/shells, SVG exports, hydrogen 1s normalization, radial/angular nodes, all 14 orbitals and hydrogenic Z scaling.\n"
+    }
+  }
+]

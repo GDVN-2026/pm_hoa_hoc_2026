@@ -1,0 +1,2535 @@
+{
+  "checkedAt": "2026-11-06T13:37:30.438Z",
+  "scope": "GDVN-hoa-hoc; không phải chứng nhận toàn bộ chương trình",
+  "hashes": {
+    "lab-data.js": "01a845672e89864e30e951e9f964daa39bf64de2f83e1e042d2c516861ac6c61",
+    "lab-domain.js": "4c051088ab8532eb2c961cb1f40031c9e9867db7089020e7ea848e37e0f92375",
+    "lab-ui.js": "abecdaa528f22b22f149d0e65685839fc9a473c1ab3ad572309442bc60883848",
+    "chemistry.js": "0b8fc59208b07d6d30ec4715c5b2b9e59bd5f951c9b30b8cbd75fc57faab6395",
+    "titration.js": "0d7b70d70124a23ae35ec1dfd8f3203ede7639da406939cfce9d7c9fda8a37a6",
+    "curriculum-context.js": "8f6f0275c0b0de682c7cd5f93dc035b76ed8ee7ae9c97aefb4b15514d73c075b",
+    "reactions-ui.js": "25104d96d7d17834fed3958924a89ed38ed5fa8749d2e06849fbba354684b812"
+  },
+  "inventory": [
+    {
+      "id": "CHEM-001",
+      "runtimeId": "rx-0",
+      "name": "CuSO4 + NaOH",
+      "equation": "CuSO4 + 2NaOH → Cu(OH)2 + Na2SO4",
+      "condition": "Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+      "observation": "Kết tủa xanh lam xuất hiện.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-002",
+      "runtimeId": "rx-1",
+      "name": "CaCO3 + HCl",
+      "equation": "CaCO3 + 2HCl → CaCl2 + CO2 + H2O",
+      "condition": "Đá vôi tiếp xúc HCl loãng. CO₂ thoát ra, CaCl₂ nằm trong dung dịch.",
+      "observation": "Chất rắn tan dần, giải phóng khí CO₂.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-003",
+      "runtimeId": "rx-2",
+      "name": "Fe + CuSO4",
+      "equation": "Fe + CuSO4 → FeSO4 + Cu",
+      "condition": "Mẫu sắt sạch tiếp xúc dung dịch CuSO₄. Màu cuối phụ thuộc lượng Cu²⁺ còn dư.",
+      "observation": "Đồng đỏ nâu bám trên sắt, màu xanh dung dịch nhạt dần.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-004",
+      "runtimeId": "rx-3",
+      "name": "AgNO3 + NaCl",
+      "equation": "AgNO3 + NaCl → AgCl + NaNO3",
+      "condition": "Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+      "observation": "Kết tủa AgCl màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-005",
+      "runtimeId": "rx-4",
+      "name": "BaCl2 + Na2SO4",
+      "equation": "BaCl2 + Na2SO4 → BaSO4 + 2NaCl",
+      "condition": "Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+      "observation": "Kết tủa BaSO₄ màu trắng, ít tan trong axit loãng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-006",
+      "runtimeId": "rx-5",
+      "name": "FeCl3 + NaOH",
+      "equation": "FeCl3 + 3NaOH → Fe(OH)3 + 3NaCl",
+      "condition": "Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+      "observation": "Kết tủa Fe(OH)₃ nâu đỏ xuất hiện.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-007",
+      "runtimeId": "rx-6",
+      "name": "FeSO4 + NaOH",
+      "equation": "FeSO4 + 2NaOH → Fe(OH)2 + Na2SO4",
+      "condition": "Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+      "observation": "Kết tủa Fe(OH)₂ trắng xanh, chuyển nâu khi bị oxi hóa ngoài không khí.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-008",
+      "runtimeId": "rx-7",
+      "name": "Mg + HCl",
+      "equation": "Mg + 2HCl → MgCl2 + H2",
+      "condition": "Chất phản ứng ở điều kiện ghi trong tên và phương trình. Bọt hoặc dòng khí thể hiện sản phẩm khí, không dùng màu để nhận biết khí không màu.",
+      "observation": "Magnesium tan, khí hydrogen thoát ra.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-009",
+      "runtimeId": "rx-8",
+      "name": "Zn + HCl",
+      "equation": "Zn + 2HCl → ZnCl2 + H2",
+      "condition": "Chất phản ứng ở điều kiện ghi trong tên và phương trình. Bọt hoặc dòng khí thể hiện sản phẩm khí, không dùng màu để nhận biết khí không màu.",
+      "observation": "Kẽm tan dần, xuất hiện khí hydrogen.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-010",
+      "runtimeId": "rx-9",
+      "name": "Na2CO3 + HCl",
+      "equation": "Na2CO3 + 2HCl → 2NaCl + CO2 + H2O",
+      "condition": "Chất phản ứng ở điều kiện ghi trong tên và phương trình. Bọt hoặc dòng khí thể hiện sản phẩm khí, không dùng màu để nhận biết khí không màu.",
+      "observation": "Sủi bọt khí carbon dioxide.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-011",
+      "runtimeId": "rx-10",
+      "name": "NaHCO3 + HCl",
+      "equation": "NaHCO3 + HCl → NaCl + CO2 + H2O",
+      "condition": "Chất phản ứng ở điều kiện ghi trong tên và phương trình. Bọt hoặc dòng khí thể hiện sản phẩm khí, không dùng màu để nhận biết khí không màu.",
+      "observation": "Giải phóng CO₂, tạo dung dịch muối.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-012",
+      "runtimeId": "rx-11",
+      "name": "NH4Cl + NaOH",
+      "equation": "NH4Cl + NaOH → NaCl + NH3 + H2O",
+      "condition": "Chất phản ứng ở điều kiện ghi trong tên và phương trình. Bọt hoặc dòng khí thể hiện sản phẩm khí, không dùng màu để nhận biết khí không màu.",
+      "observation": "Khi đun nhẹ, giải phóng ammonia làm xanh giấy quỳ ẩm.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-013",
+      "runtimeId": "rx-12",
+      "name": "HCl + NaOH",
+      "equation": "HCl + NaOH → NaCl + H2O",
+      "condition": "Dung dịch axit và bazơ. Phương trình mô tả tỉ lệ trung hòa đã ghi. Có thể ấm lên, màu chỉ thay đổi nếu có chỉ thị phù hợp.",
+      "observation": "Phản ứng trung hòa, dung dịch nóng lên.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-014",
+      "runtimeId": "rx-13",
+      "name": "H2SO4 + KOH",
+      "equation": "H2SO4 + 2KOH → K2SO4 + 2H2O",
+      "condition": "Dung dịch axit và bazơ. Phương trình mô tả tỉ lệ trung hòa đã ghi. Có thể ấm lên, màu chỉ thay đổi nếu có chỉ thị phù hợp.",
+      "observation": "Axit sulfuric phản ứng với potassium hydroxide.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": true,
+        "code": "PARTIAL-NEUTRALIZATION",
+        "source": "acid",
+        "message": "Bazơ chưa đủ để trung hòa hoàn toàn hai proton theo phương trình tạo sulfate đã chọn.",
+        "next": "Hệ có thể chứa acid và hydrogensulfate. Web chưa giải cân bằng acid nhiều nấc; không coi lượng sulfate của một phương trình là thành phần cuối. Chọn tỉ lệ đủ bazơ để khảo sát trung hòa hoàn toàn."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-015",
+      "runtimeId": "rx-14",
+      "name": "CO2 + Ca(OH)2",
+      "equation": "CO2 + Ca(OH)2 → CaCO3 + H2O",
+      "condition": "Dẫn lượng CO₂ vừa đủ vào nước vôi trong. CO₂ dư có thể làm độ đục giảm.",
+      "observation": "Nước vôi trong vẩn đục do tạo calcium carbonate.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-016",
+      "runtimeId": "rx-15",
+      "name": "CuO + HCl",
+      "equation": "CuO + 2HCl → CuCl2 + H2O",
+      "condition": "Hiện tượng phụ thuộc trạng thái chất, nồng độ và môi trường phản ứng.",
+      "observation": "Chất rắn đen tan, tạo dung dịch xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-017",
+      "runtimeId": "rx-16",
+      "name": "Cu(OH)2 nung nóng",
+      "equation": "Cu(OH)2 → CuO + H2O",
+      "condition": "Chất rắn được gia nhiệt trong dụng cụ chịu nhiệt phù hợp. Cảnh chỉ biểu diễn sản phẩm của phương trình đã chọn.",
+      "observation": "Kết tủa xanh chuyển thành copper(II) oxide màu đen.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-018",
+      "runtimeId": "rx-17",
+      "name": "KMnO4 nung nóng",
+      "equation": "2KMnO4 → K2MnO4 + MnO2 + O2",
+      "condition": "Gia nhiệt KMnO₄ rắn trong ống chịu nhiệt. O₂ được dẫn sang bình thu qua nước.",
+      "observation": "Giải phóng oxygen, tạo manganate và manganese dioxide.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-019",
+      "runtimeId": "rx-18",
+      "name": "KClO3 nung nóng",
+      "equation": "2KClO3 → 2KCl + 3O2",
+      "condition": "Mô phỏng KClO₃ rắn phân hủy khi gia nhiệt với xúc tác MnO₂. Khí O₂ được thu riêng.",
+      "observation": "Có MnO₂ xúc tác, potassium chlorate phân hủy tạo oxygen.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-020",
+      "runtimeId": "rx-19",
+      "name": "CaCO3 nung nóng",
+      "equation": "CaCO3 → CaO + CO2",
+      "condition": "Cần nung mạnh. Mức phân hủy phụ thuộc nhiệt độ và áp suất riêng phần CO₂.",
+      "observation": "Đá vôi có thể vụn dần. CaO rắn còn lại, CO₂ không màu thoát ra. Có thể nhận biết CO₂ bằng nước vôi trong ở bước thử riêng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-021",
+      "runtimeId": "rx-20",
+      "name": "H2 cháy trong O2",
+      "equation": "2H2 + O2 → 2H2O",
+      "condition": "Có nguồn mồi và đủ oxygen. Phương trình mô tả cháy hoàn toàn, thời lượng trong cảnh chỉ để minh họa.",
+      "observation": "Hydrogen cháy tạo nước, tỏa nhiều nhiệt.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-022",
+      "runtimeId": "rx-21",
+      "name": "CH4 cháy",
+      "equation": "CH4 + 2O2 → CO2 + 2H2O",
+      "condition": "Có nguồn mồi và đủ oxygen. Phương trình mô tả cháy hoàn toàn, thời lượng trong cảnh chỉ để minh họa.",
+      "observation": "Methane cháy hoàn toàn tạo carbon dioxide và nước.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-023",
+      "runtimeId": "rx-22",
+      "name": "C2H5OH cháy",
+      "equation": "C2H5OH + 3O2 → 2CO2 + 3H2O",
+      "condition": "Có nguồn mồi và đủ oxygen. Phương trình mô tả cháy hoàn toàn, thời lượng trong cảnh chỉ để minh họa.",
+      "observation": "Ethanol cháy hoàn toàn tạo CO₂ và hơi nước.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-024",
+      "runtimeId": "rx-23",
+      "name": "Al + Fe2O3",
+      "equation": "2Al + Fe2O3 → Al2O3 + 2Fe",
+      "condition": "Hiện tượng phụ thuộc trạng thái chất, nồng độ và môi trường phản ứng.",
+      "observation": "Phản ứng nhiệt nhôm tỏa nhiều nhiệt, tạo sắt.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-025",
+      "runtimeId": "rx-24",
+      "name": "Cu + AgNO3",
+      "equation": "Cu + 2AgNO3 → Cu(NO3)2 + 2Ag",
+      "condition": "Mẫu đồng tiếp xúc dung dịch AgNO₃. Ag bám trên bề mặt, Cu²⁺ đi vào dung dịch.",
+      "observation": "Tinh thể bạc bám trên đồng, dung dịch chuyển xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-026",
+      "runtimeId": "rx-25",
+      "name": "Cl2 + KI",
+      "equation": "Cl2 + 2KI → 2KCl + I2",
+      "condition": "Chlorine tiếp xúc dung dịch KI. Iodine sinh ra tạo màu nâu trong môi trường có iodide.",
+      "observation": "Chlorine oxi hóa iodide thành iodine màu nâu.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-027",
+      "runtimeId": "rx-26",
+      "name": "AlCl3 + NaOH",
+      "equation": "AlCl3 + 3NaOH → Al(OH)3 + 3NaCl",
+      "condition": "Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+      "observation": "Với lượng bazơ phù hợp, tạo kết tủa keo trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-028",
+      "runtimeId": "rx-27",
+      "name": "Al(OH)3 + NaOH",
+      "equation": "Al(OH)3 + NaOH → NaAl(OH)4",
+      "condition": "Dung dịch NaOH dư. Biểu diễn aluminate trong nước dưới dạng [Al(OH)₄]⁻.",
+      "observation": "Kết tủa keo trắng tan dần trong bazơ mạnh dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-029",
+      "runtimeId": "rx-28",
+      "name": "Na2SO3 + HCl",
+      "equation": "Na2SO3 + 2HCl → 2NaCl + SO2 + H2O",
+      "condition": "Chất phản ứng ở điều kiện ghi trong tên và phương trình. Bọt hoặc dòng khí thể hiện sản phẩm khí, không dùng màu để nhận biết khí không màu.",
+      "observation": "Giải phóng sulfur dioxide.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-030",
+      "runtimeId": "rx-29",
+      "name": "H2O2 phân hủy",
+      "equation": "2H2O2 → 2H2O + O2",
+      "condition": "Dung dịch H₂O₂ phân hủy với xúc tác MnO₂ ở nhiệt độ phòng. MnO₂ không nằm trong phương trình tổng.",
+      "observation": "Có xúc tác MnO₂, hydrogen peroxide giải phóng oxygen.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-031",
+      "runtimeId": "rx-30",
+      "name": "Cu(NO3)2 + NaOH",
+      "equation": "Cu(NO3)2 + 2NaOH → Cu(OH)2 + 2NaNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa xanh lam.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-032",
+      "runtimeId": "rx-31",
+      "name": "Cu(NO3)2 + KOH",
+      "equation": "Cu(NO3)2 + 2KOH → Cu(OH)2 + 2KNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa xanh lam.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-033",
+      "runtimeId": "rx-32",
+      "name": "MgCl2 + NaOH",
+      "equation": "MgCl2 + 2NaOH → Mg(OH)2 + 2NaCl",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-034",
+      "runtimeId": "rx-33",
+      "name": "MgCl2 + KOH",
+      "equation": "MgCl2 + 2KOH → Mg(OH)2 + 2KCl",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-035",
+      "runtimeId": "rx-34",
+      "name": "MgSO4 + NaOH",
+      "equation": "MgSO4 + 2NaOH → Mg(OH)2 + Na2SO4",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-036",
+      "runtimeId": "rx-35",
+      "name": "MgSO4 + KOH",
+      "equation": "MgSO4 + 2KOH → Mg(OH)2 + K2SO4",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-037",
+      "runtimeId": "rx-36",
+      "name": "FeCl2 + NaOH",
+      "equation": "FeCl2 + 2NaOH → Fe(OH)2 + 2NaCl",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng xanh, có thể chuyển nâu khi tiếp xúc không khí.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-038",
+      "runtimeId": "rx-37",
+      "name": "FeCl2 + KOH",
+      "equation": "FeCl2 + 2KOH → Fe(OH)2 + 2KCl",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng xanh, có thể chuyển nâu khi tiếp xúc không khí.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-039",
+      "runtimeId": "rx-38",
+      "name": "Fe(NO3)3 + NaOH",
+      "equation": "Fe(NO3)3 + 3NaOH → Fe(OH)3 + 3NaNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa nâu đỏ.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-040",
+      "runtimeId": "rx-39",
+      "name": "Fe(NO3)3 + KOH",
+      "equation": "Fe(NO3)3 + 3KOH → Fe(OH)3 + 3KNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa nâu đỏ.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-041",
+      "runtimeId": "rx-40",
+      "name": "Al(NO3)3 + NaOH",
+      "equation": "Al(NO3)3 + 3NaOH → Al(OH)3 + 3NaNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa keo trắng khi hydroxide không dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-042",
+      "runtimeId": "rx-41",
+      "name": "Al(NO3)3 + KOH",
+      "equation": "Al(NO3)3 + 3KOH → Al(OH)3 + 3KNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa keo trắng khi hydroxide không dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-043",
+      "runtimeId": "rx-42",
+      "name": "ZnSO4 + NaOH",
+      "equation": "ZnSO4 + 2NaOH → Zn(OH)2 + Na2SO4",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng khi hydroxide không dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-044",
+      "runtimeId": "rx-43",
+      "name": "ZnSO4 + KOH",
+      "equation": "ZnSO4 + 2KOH → Zn(OH)2 + K2SO4",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng khi hydroxide không dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-045",
+      "runtimeId": "rx-44",
+      "name": "Zn(NO3)2 + NaOH",
+      "equation": "Zn(NO3)2 + 2NaOH → Zn(OH)2 + 2NaNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng khi hydroxide không dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-046",
+      "runtimeId": "rx-45",
+      "name": "Zn(NO3)2 + KOH",
+      "equation": "Zn(NO3)2 + 2KOH → Zn(OH)2 + 2KNO3",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa trắng khi hydroxide không dư.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-047",
+      "runtimeId": "rx-46",
+      "name": "NiSO4 + NaOH",
+      "equation": "NiSO4 + 2NaOH → Ni(OH)2 + Na2SO4",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa xanh lục.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-048",
+      "runtimeId": "rx-47",
+      "name": "NiSO4 + KOH",
+      "equation": "NiSO4 + 2KOH → Ni(OH)2 + K2SO4",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa xanh lục.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-049",
+      "runtimeId": "rx-48",
+      "name": "MnCl2 + NaOH",
+      "equation": "MnCl2 + 2NaOH → Mn(OH)2 + 2NaCl",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa nhạt màu, sẫm dần do bị oxi hóa ngoài không khí.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-050",
+      "runtimeId": "rx-49",
+      "name": "MnCl2 + KOH",
+      "equation": "MnCl2 + 2KOH → Mn(OH)2 + 2KCl",
+      "condition": "Dung dịch loãng, lượng bazơ thích hợp. Al(OH)3 và Zn(OH)2 có thể tan khi bazơ mạnh dư.",
+      "observation": "Kết tủa nhạt màu, sẫm dần do bị oxi hóa ngoài không khí.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-051",
+      "runtimeId": "rx-50",
+      "name": "CaCl2 + Na2CO3",
+      "equation": "CaCl2 + Na2CO3 → CaCO3 + 2NaCl",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-052",
+      "runtimeId": "rx-51",
+      "name": "CaCl2 + K2CO3",
+      "equation": "CaCl2 + K2CO3 → CaCO3 + 2KCl",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-053",
+      "runtimeId": "rx-52",
+      "name": "Ca(NO3)2 + Na2CO3",
+      "equation": "Ca(NO3)2 + Na2CO3 → CaCO3 + 2NaNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-054",
+      "runtimeId": "rx-53",
+      "name": "Ca(NO3)2 + K2CO3",
+      "equation": "Ca(NO3)2 + K2CO3 → CaCO3 + 2KNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-055",
+      "runtimeId": "rx-54",
+      "name": "BaCl2 + Na2CO3",
+      "equation": "BaCl2 + Na2CO3 → BaCO3 + 2NaCl",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-056",
+      "runtimeId": "rx-55",
+      "name": "BaCl2 + K2CO3",
+      "equation": "BaCl2 + K2CO3 → BaCO3 + 2KCl",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-057",
+      "runtimeId": "rx-56",
+      "name": "Ba(NO3)2 + Na2CO3",
+      "equation": "Ba(NO3)2 + Na2CO3 → BaCO3 + 2NaNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-058",
+      "runtimeId": "rx-57",
+      "name": "Ba(NO3)2 + K2CO3",
+      "equation": "Ba(NO3)2 + K2CO3 → BaCO3 + 2KNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-059",
+      "runtimeId": "rx-58",
+      "name": "SrCl2 + Na2CO3",
+      "equation": "SrCl2 + Na2CO3 → SrCO3 + 2NaCl",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-060",
+      "runtimeId": "rx-59",
+      "name": "SrCl2 + K2CO3",
+      "equation": "SrCl2 + K2CO3 → SrCO3 + 2KCl",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-061",
+      "runtimeId": "rx-60",
+      "name": "Sr(NO3)2 + Na2CO3",
+      "equation": "Sr(NO3)2 + Na2CO3 → SrCO3 + 2NaNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-062",
+      "runtimeId": "rx-61",
+      "name": "Sr(NO3)2 + K2CO3",
+      "equation": "Sr(NO3)2 + K2CO3 → SrCO3 + 2KNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa carbonate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-063",
+      "runtimeId": "rx-62",
+      "name": "BaCl2 + K2SO4",
+      "equation": "BaCl2 + K2SO4 → BaSO4 + 2KCl",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-064",
+      "runtimeId": "rx-63",
+      "name": "BaCl2 + (NH4)2SO4",
+      "equation": "BaCl2 + (NH4)2SO4 → BaSO4 + 2NH4Cl",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-065",
+      "runtimeId": "rx-64",
+      "name": "Ba(NO3)2 + Na2SO4",
+      "equation": "Ba(NO3)2 + Na2SO4 → BaSO4 + 2NaNO3",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-066",
+      "runtimeId": "rx-65",
+      "name": "Ba(NO3)2 + K2SO4",
+      "equation": "Ba(NO3)2 + K2SO4 → BaSO4 + 2KNO3",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-067",
+      "runtimeId": "rx-66",
+      "name": "Ba(NO3)2 + (NH4)2SO4",
+      "equation": "Ba(NO3)2 + (NH4)2SO4 → BaSO4 + 2NH4NO3",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-068",
+      "runtimeId": "rx-67",
+      "name": "SrCl2 + Na2SO4",
+      "equation": "SrCl2 + Na2SO4 → SrSO4 + 2NaCl",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-069",
+      "runtimeId": "rx-68",
+      "name": "SrCl2 + K2SO4",
+      "equation": "SrCl2 + K2SO4 → SrSO4 + 2KCl",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-070",
+      "runtimeId": "rx-69",
+      "name": "SrCl2 + (NH4)2SO4",
+      "equation": "SrCl2 + (NH4)2SO4 → SrSO4 + 2NH4Cl",
+      "condition": "Dung dịch đủ nồng độ; sulfate ít tan tạo kết tủa khi vượt tích số tan.",
+      "observation": "Kết tủa sulfate màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-071",
+      "runtimeId": "rx-70",
+      "name": "AgNO3 + KCl",
+      "equation": "AgNO3 + KCl → AgCl + KNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa bạc halide màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-072",
+      "runtimeId": "rx-71",
+      "name": "AgNO3 + NaBr",
+      "equation": "AgNO3 + NaBr → AgBr + NaNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa bạc halide màu vàng nhạt.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-073",
+      "runtimeId": "rx-72",
+      "name": "AgNO3 + KBr",
+      "equation": "AgNO3 + KBr → AgBr + KNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa bạc halide màu vàng nhạt.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-074",
+      "runtimeId": "rx-73",
+      "name": "AgNO3 + NaI",
+      "equation": "AgNO3 + NaI → AgI + NaNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa bạc halide màu vàng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-075",
+      "runtimeId": "rx-74",
+      "name": "AgNO3 + KI",
+      "equation": "AgNO3 + KI → AgI + KNO3",
+      "condition": "Các dung dịch đủ nồng độ để tạo hiện tượng quan sát được.",
+      "observation": "Kết tủa bạc halide màu vàng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-076",
+      "runtimeId": "rx-75",
+      "name": "AgNO3 + Na3PO4",
+      "equation": "3AgNO3 + Na3PO4 → Ag3PO4 + 3NaNO3",
+      "condition": "Dung dịch phosphate, không có axit mạnh hoặc phối tử hòa tan bạc.",
+      "observation": "Kết tủa silver phosphate màu vàng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-077",
+      "runtimeId": "rx-76",
+      "name": "AgNO3 + K3PO4",
+      "equation": "3AgNO3 + K3PO4 → Ag3PO4 + 3KNO3",
+      "condition": "Dung dịch phosphate, không có axit mạnh hoặc phối tử hòa tan bạc.",
+      "observation": "Kết tủa silver phosphate màu vàng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-078",
+      "runtimeId": "rx-77",
+      "name": "Pb(NO3)2 + KI",
+      "equation": "Pb(NO3)2 + 2KI → PbI2 + 2KNO3",
+      "condition": "Dung dịch đủ nồng độ ở nhiệt độ thường; độ tan phụ thuộc nhiệt độ.",
+      "observation": "Kết tủa màu vàng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-079",
+      "runtimeId": "rx-78",
+      "name": "Pb(NO3)2 + KBr",
+      "equation": "Pb(NO3)2 + 2KBr → PbBr2 + 2KNO3",
+      "condition": "Dung dịch đủ nồng độ ở nhiệt độ thường; độ tan phụ thuộc nhiệt độ.",
+      "observation": "Kết tủa màu trắng ngà.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-080",
+      "runtimeId": "rx-79",
+      "name": "Pb(NO3)2 + NaCl",
+      "equation": "Pb(NO3)2 + 2NaCl → PbCl2 + 2NaNO3",
+      "condition": "Dung dịch đủ nồng độ ở nhiệt độ thường; độ tan phụ thuộc nhiệt độ.",
+      "observation": "Kết tủa màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-081",
+      "runtimeId": "rx-80",
+      "name": "Pb(NO3)2 + Na2SO4",
+      "equation": "Pb(NO3)2 + Na2SO4 → PbSO4 + 2NaNO3",
+      "condition": "Dung dịch đủ nồng độ ở nhiệt độ thường; độ tan phụ thuộc nhiệt độ.",
+      "observation": "Kết tủa màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-082",
+      "runtimeId": "rx-81",
+      "name": "Na2CO3 + HNO3",
+      "equation": "Na2CO3 + 2HNO3 → 2NaNO3 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-083",
+      "runtimeId": "rx-82",
+      "name": "K2CO3 + HCl",
+      "equation": "K2CO3 + 2HCl → 2KCl + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-084",
+      "runtimeId": "rx-83",
+      "name": "K2CO3 + HNO3",
+      "equation": "K2CO3 + 2HNO3 → 2KNO3 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-085",
+      "runtimeId": "rx-84",
+      "name": "NaHCO3 + HNO3",
+      "equation": "NaHCO3 + HNO3 → NaNO3 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-086",
+      "runtimeId": "rx-85",
+      "name": "KHCO3 + HCl",
+      "equation": "KHCO3 + HCl → KCl + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-087",
+      "runtimeId": "rx-86",
+      "name": "KHCO3 + HNO3",
+      "equation": "KHCO3 + HNO3 → KNO3 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-088",
+      "runtimeId": "rx-87",
+      "name": "CaCO3 + HNO3",
+      "equation": "CaCO3 + 2HNO3 → Ca(NO3)2 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-089",
+      "runtimeId": "rx-88",
+      "name": "MgCO3 + HCl",
+      "equation": "MgCO3 + 2HCl → MgCl2 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-090",
+      "runtimeId": "rx-89",
+      "name": "MgCO3 + HNO3",
+      "equation": "MgCO3 + 2HNO3 → Mg(NO3)2 + CO2 + H2O",
+      "condition": "Axit loãng; phản ứng mô phỏng với carbonate được chỉ định.",
+      "observation": "Carbonate/hydrogencarbonate phản ứng với axit, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-091",
+      "runtimeId": "rx-90",
+      "name": "NH4Cl + KOH",
+      "equation": "NH4Cl + KOH → KCl + NH3 + H2O",
+      "condition": "Dung dịch ammonium và bazơ mạnh; hiện tượng khí rõ hơn khi làm ấm.",
+      "observation": "Giải phóng ammonia khi làm ấm; giấy quỳ ẩm chuyển xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-092",
+      "runtimeId": "rx-91",
+      "name": "NH4NO3 + NaOH",
+      "equation": "NH4NO3 + NaOH → NaNO3 + NH3 + H2O",
+      "condition": "Dung dịch ammonium và bazơ mạnh; hiện tượng khí rõ hơn khi làm ấm.",
+      "observation": "Giải phóng ammonia khi làm ấm; giấy quỳ ẩm chuyển xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-093",
+      "runtimeId": "rx-92",
+      "name": "NH4NO3 + KOH",
+      "equation": "NH4NO3 + KOH → KNO3 + NH3 + H2O",
+      "condition": "Dung dịch ammonium và bazơ mạnh; hiện tượng khí rõ hơn khi làm ấm.",
+      "observation": "Giải phóng ammonia khi làm ấm; giấy quỳ ẩm chuyển xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-094",
+      "runtimeId": "rx-93",
+      "name": "(NH4)2SO4 + NaOH",
+      "equation": "(NH4)2SO4 + 2NaOH → Na2SO4 + 2NH3 + 2H2O",
+      "condition": "Dung dịch ammonium và bazơ mạnh; hiện tượng khí rõ hơn khi làm ấm.",
+      "observation": "Giải phóng ammonia khi làm ấm; giấy quỳ ẩm chuyển xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-095",
+      "runtimeId": "rx-94",
+      "name": "(NH4)2SO4 + KOH",
+      "equation": "(NH4)2SO4 + 2KOH → K2SO4 + 2NH3 + 2H2O",
+      "condition": "Dung dịch ammonium và bazơ mạnh; hiện tượng khí rõ hơn khi làm ấm.",
+      "observation": "Giải phóng ammonia khi làm ấm; giấy quỳ ẩm chuyển xanh.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-096",
+      "runtimeId": "rx-95",
+      "name": "Zn + CuSO4",
+      "equation": "Zn + CuSO4 → ZnSO4 + Cu",
+      "condition": "Kim loại tiếp xúc dung dịch muối đồng(II), không có lớp phủ cản trở đáng kể.",
+      "observation": "Đồng đỏ nâu bám lên kim loại; màu xanh của dung dịch giảm.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-097",
+      "runtimeId": "rx-96",
+      "name": "Zn + CuCl2",
+      "equation": "Zn + CuCl2 → ZnCl2 + Cu",
+      "condition": "Kim loại tiếp xúc dung dịch muối đồng(II), không có lớp phủ cản trở đáng kể.",
+      "observation": "Đồng đỏ nâu bám lên kim loại; màu xanh của dung dịch giảm.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-098",
+      "runtimeId": "rx-97",
+      "name": "Mg + CuSO4",
+      "equation": "Mg + CuSO4 → MgSO4 + Cu",
+      "condition": "Kim loại tiếp xúc dung dịch muối đồng(II), không có lớp phủ cản trở đáng kể.",
+      "observation": "Đồng đỏ nâu bám lên kim loại; màu xanh của dung dịch giảm.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-099",
+      "runtimeId": "rx-98",
+      "name": "Mg + CuCl2",
+      "equation": "Mg + CuCl2 → MgCl2 + Cu",
+      "condition": "Kim loại tiếp xúc dung dịch muối đồng(II), không có lớp phủ cản trở đáng kể.",
+      "observation": "Đồng đỏ nâu bám lên kim loại; màu xanh của dung dịch giảm.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-100",
+      "runtimeId": "rx-99",
+      "name": "Fe + HCl",
+      "equation": "Fe + 2HCl → FeCl2 + H2",
+      "condition": "HCl loãng; Al có thể có giai đoạn cảm ứng do lớp oxide.",
+      "observation": "Kim loại tan và giải phóng hydrogen.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-101",
+      "runtimeId": "rx-100",
+      "name": "Al + HCl",
+      "equation": "2Al + 6HCl → 2AlCl3 + 3H2",
+      "condition": "HCl loãng; Al có thể có giai đoạn cảm ứng do lớp oxide.",
+      "observation": "Kim loại tan và giải phóng hydrogen.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-102",
+      "runtimeId": "rx-101",
+      "name": "Fe + H2SO4",
+      "equation": "Fe + H2SO4 → FeSO4 + H2",
+      "condition": "H2SO4 loãng; không áp dụng cho axit sulfuric đặc.",
+      "observation": "Kim loại tan dần, khí hydrogen thoát ra.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-103",
+      "runtimeId": "rx-102",
+      "name": "Mg + H2SO4",
+      "equation": "Mg + H2SO4 → MgSO4 + H2",
+      "condition": "H2SO4 loãng; không áp dụng cho axit sulfuric đặc.",
+      "observation": "Kim loại tan dần, khí hydrogen thoát ra.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-104",
+      "runtimeId": "rx-103",
+      "name": "Zn + H2SO4",
+      "equation": "Zn + H2SO4 → ZnSO4 + H2",
+      "condition": "H2SO4 loãng; không áp dụng cho axit sulfuric đặc.",
+      "observation": "Kim loại tan dần, khí hydrogen thoát ra.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-105",
+      "runtimeId": "rx-104",
+      "name": "HCl + KOH",
+      "equation": "HCl + KOH → KCl + H2O",
+      "condition": "Dung dịch axit và bazơ, không tự tạo màu khi không có chỉ thị.",
+      "observation": "Trung hòa axit – bazơ; hiện tượng màu phụ thuộc chất chỉ thị, dung dịch có thể ấm lên.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-106",
+      "runtimeId": "rx-105",
+      "name": "HNO3 + NaOH",
+      "equation": "HNO3 + NaOH → NaNO3 + H2O",
+      "condition": "Dung dịch axit và bazơ, không tự tạo màu khi không có chỉ thị.",
+      "observation": "Trung hòa axit – bazơ; hiện tượng màu phụ thuộc chất chỉ thị, dung dịch có thể ấm lên.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-107",
+      "runtimeId": "rx-106",
+      "name": "HNO3 + KOH",
+      "equation": "HNO3 + KOH → KNO3 + H2O",
+      "condition": "Dung dịch axit và bazơ, không tự tạo màu khi không có chỉ thị.",
+      "observation": "Trung hòa axit – bazơ; hiện tượng màu phụ thuộc chất chỉ thị, dung dịch có thể ấm lên.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-108",
+      "runtimeId": "rx-107",
+      "name": "CH3COOH + NaOH",
+      "equation": "CH3COOH + NaOH → CH3COONa + H2O",
+      "condition": "Dung dịch axit và bazơ, không tự tạo màu khi không có chỉ thị.",
+      "observation": "Trung hòa axit – bazơ; hiện tượng màu phụ thuộc chất chỉ thị, dung dịch có thể ấm lên.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-109",
+      "runtimeId": "rx-108",
+      "name": "CH3COOH + KOH",
+      "equation": "CH3COOH + KOH → CH3COOK + H2O",
+      "condition": "Dung dịch axit và bazơ, không tự tạo màu khi không có chỉ thị.",
+      "observation": "Trung hòa axit – bazơ; hiện tượng màu phụ thuộc chất chỉ thị, dung dịch có thể ấm lên.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-110",
+      "runtimeId": "rx-109",
+      "name": "H2SO4 + NaOH",
+      "equation": "H2SO4 + 2NaOH → Na2SO4 + 2H2O",
+      "condition": "Dung dịch loãng.",
+      "observation": "Trung hòa axit sulfuric bằng sodium hydroxide.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": true,
+        "code": "PARTIAL-NEUTRALIZATION",
+        "source": "acid",
+        "message": "Bazơ chưa đủ để trung hòa hoàn toàn hai proton theo phương trình tạo sulfate đã chọn.",
+        "next": "Hệ có thể chứa acid và hydrogensulfate. Web chưa giải cân bằng acid nhiều nấc; không coi lượng sulfate của một phương trình là thành phần cuối. Chọn tỉ lệ đủ bazơ để khảo sát trung hòa hoàn toàn."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-111",
+      "runtimeId": "rx-110",
+      "name": "MgCO3 phân hủy",
+      "equation": "MgCO3 → MgO + CO2",
+      "condition": "Nhiệt độ phù hợp cho phản ứng phân hủy.",
+      "observation": "Carbonate phân hủy, giải phóng CO2.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-112",
+      "runtimeId": "rx-111",
+      "name": "NaHCO3 phân hủy",
+      "equation": "2NaHCO3 → Na2CO3 + CO2 + H2O",
+      "condition": "Nhiệt độ phù hợp cho phản ứng phân hủy.",
+      "observation": "Hydrogencarbonate phân hủy, giải phóng CO2 và hơi nước.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-113",
+      "runtimeId": "rx-112",
+      "name": "Ca(OH)2 phân hủy",
+      "equation": "Ca(OH)2 → CaO + H2O",
+      "condition": "Nhiệt độ phù hợp cho phản ứng phân hủy.",
+      "observation": "Calcium hydroxide phân hủy khi nung.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-114",
+      "runtimeId": "rx-113",
+      "name": "CH3COOH + NaHCO3",
+      "equation": "CH3COOH + NaHCO3 → CH3COONa + CO2 + H2O",
+      "condition": "Axit acetic tiếp xúc với hydrogencarbonate; tốc độ phụ thuộc nồng độ và cách trộn.",
+      "observation": "Sủi bọt do tạo CO₂.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-115",
+      "runtimeId": "rx-114",
+      "name": "CH3COOH + Na2CO3",
+      "equation": "2CH3COOH + Na2CO3 → 2CH3COONa + CO2 + H2O",
+      "condition": "Dung dịch loãng, có đủ axit để chuyển carbonate thành CO₂.",
+      "observation": "Có CO₂ thoát ra khi đủ axit.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-116",
+      "runtimeId": "rx-115",
+      "name": "Ba(NO3)2 + MgSO4",
+      "equation": "Ba(NO3)2 + MgSO4 → BaSO4 + Mg(NO3)2",
+      "condition": "Dung dịch có tích ion Ba²⁺ và SO₄²⁻ vượt tích số tan.",
+      "observation": "Kết tủa BaSO₄ màu trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-117",
+      "runtimeId": "rx-116",
+      "name": "Đồng với HNO₃ đặc",
+      "equation": "Cu + 4HNO3 → Cu(NO3)2 + 2NO2 + 2H2O",
+      "condition": "HNO₃ đặc. Cảnh định tính, khí NO₂ được minh họa trong thiết bị xử lý khí.",
+      "observation": "Đồng tan dần, dung dịch chuyển xanh và khí NO₂ nâu đỏ xuất hiện.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-118",
+      "runtimeId": "rx-117",
+      "name": "Magnesium cháy trong oxygen",
+      "equation": "2Mg + O2 → 2MgO",
+      "condition": "Magnesium cháy trong oxygen. Phương trình mô tả sản phẩm oxide, không mô phỏng phản ứng phụ trong không khí.",
+      "observation": "Phát ánh sáng trắng mạnh, còn lại magnesium oxide trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-119",
+      "runtimeId": "rx-118",
+      "name": "CO₂ dư trong nước vôi đã vẩn đục",
+      "equation": "CaCO3 + CO2 + H2O → Ca(HCO3)2",
+      "condition": "Tiếp tục dẫn CO₂ sau khi nước vôi đã đục. Phương trình biểu diễn quá trình hòa tan carbonate trong môi trường có CO₂ dư.",
+      "observation": "Vẩn đục trắng giảm dần khi kết tủa chuyển thành các ion hòa tan.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-120",
+      "runtimeId": "rx-119",
+      "name": "Nhôm tác dụng với kiềm",
+      "equation": "2Al + 2NaOH + 6H2O → 2NaAl(OH)4 + 3H2",
+      "condition": "Dung dịch NaOH dư. Lớp oxide bề mặt có thể làm phản ứng khởi đầu chậm.",
+      "observation": "Nhôm tan dần, bọt hydrogen xuất hiện trên bề mặt kim loại.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-121",
+      "runtimeId": "rx-120",
+      "name": "Chlorine đẩy bromine khỏi bromide",
+      "equation": "Cl2 + 2KBr → 2KCl + Br2",
+      "condition": "Dùng nước chlorine và dung dịch bromide. Màu phụ thuộc nồng độ.",
+      "observation": "Dung dịch xuất hiện màu vàng cam đến nâu do bromine.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-122",
+      "runtimeId": "rx-121",
+      "name": "Bromine đẩy iodine khỏi iodide",
+      "equation": "Br2 + 2KI → 2KBr + I2",
+      "condition": "Hai dung dịch tiếp xúc. Mức đổi màu phụ thuộc lượng thuốc thử.",
+      "observation": "Dung dịch chuyển nâu khi iodine được giải phóng trong môi trường iodide.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-123",
+      "runtimeId": "rx-122",
+      "name": "Ethanal với thuốc thử Tollens",
+      "equation": "CH3CHO + 2Ag(NH3)2^+ + 3OH^- → CH3COO^- + 2Ag + 4NH3 + 2H2O",
+      "condition": "Thuốc thử Tollens trong môi trường bazơ, làm ấm bằng bể nước. Phương trình ion rút gọn.",
+      "observation": "Bạc bám trên thành ống sạch. Ethanal bị oxi hóa thành acetate.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-124",
+      "runtimeId": "rx-123",
+      "name": "Glucose với thuốc thử Tollens",
+      "equation": "C6H12O6 + 2Ag(NH3)2^+ + 3OH^- → C6H11O7^- + 2Ag + 4NH3 + 2H2O",
+      "condition": "Làm ấm bằng bể nước. Phương trình ion rút gọn mô tả phản ứng của dạng mạch hở.",
+      "observation": "Lớp bạc hiện trên thành ống. Glucose bị oxi hóa thành gluconate.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-125",
+      "runtimeId": "rx-124",
+      "name": "Glucose khử copper(II) khi đun",
+      "equation": "C6H12O6 + 2Cu(OH)2 + OH^- → C6H11O7^- + Cu2O + 3H2O",
+      "condition": "Mô hình gộp quá trình oxi hóa glucose và khử copper(II). Chọn cảnh này cho bước đun nóng.",
+      "observation": "Chất rắn copper(I) oxide đỏ gạch xuất hiện khi đun trong môi trường kiềm.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-126",
+      "runtimeId": "rx-125",
+      "name": "Xà phòng hóa chất béo",
+      "equation": "C57H110O6 + 3NaOH → C3H8O3 + 3C18H35O2Na",
+      "condition": "Dùng tristearin làm chất béo đại diện. Gia nhiệt, có đủ NaOH; thành phần xà phòng thực tế phụ thuộc chất béo.",
+      "observation": "Chất béo bị thủy phân trong kiềm, tạo glycerol và muối sodium stearate.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-127",
+      "runtimeId": "rx-126",
+      "name": "Methylamine tác dụng với HCl",
+      "equation": "CH3NH2 + HCl → CH3NH3Cl",
+      "condition": "Mô phỏng trong dung dịch, không có chỉ thị màu.",
+      "observation": "Axit proton hóa methylamine thành ion methylammonium. Hai dung dịch loãng có thể vẫn trong.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-128",
+      "runtimeId": "rx-127",
+      "name": "Aniline tác dụng với nước bromine",
+      "equation": "C6H7N + 3Br2 → C6H4Br3N + 3HBr",
+      "condition": "Mô phỏng phản ứng thế trên vòng thơm. Có đủ bromine cho sản phẩm thế ba.",
+      "observation": "Màu bromine nhạt dần và kết tủa trắng 2,4,6-tribromoaniline xuất hiện.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-129",
+      "runtimeId": "rx-128",
+      "name": "Luyện sắt từ oxide",
+      "equation": "Fe2O3 + 3CO → 2Fe + 3CO2",
+      "condition": "Phương trình tổng quát của bước khử oxide bằng CO ở nhiệt độ cao. Lò cao thực tế có nhiều giai đoạn và tạo gang.",
+      "observation": "Gang lỏng đọng ở đáy lò, xỉ nổi phía trên và đi ra qua cửa riêng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-130",
+      "runtimeId": "rx-129",
+      "name": "Điện phân để sản xuất nhôm",
+      "equation": "2Al2O3 + 3C → 4Al + 3CO2",
+      "condition": "Alumina hòa tan trong cryolite nóng chảy. Nhôm sinh ra ở cathode, anode carbon bị tiêu hao. Phương trình giản lược với CO₂ là sản phẩm anode chính.",
+      "observation": "Nhôm lỏng tích tụ dưới lớp điện ly. CO₂ thoát ở anode carbon.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-131",
+      "runtimeId": "rx-130",
+      "name": "Điện phân NaCl nóng chảy",
+      "equation": "2NaCl → 2Na + Cl2",
+      "condition": "Chỉ mô tả muối nóng chảy. Na hình thành ở cathode, Cl₂ ở anode. Sơ đồ công nghiệp tách riêng sản phẩm.",
+      "observation": "Natri lỏng và chlorine được thu ở hai khoang riêng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-132",
+      "runtimeId": "rx-131",
+      "name": "Tạo chlorine từ nước muối",
+      "equation": "2NaCl + 2H2O → Cl2 + H2 + 2NaOH",
+      "condition": "Điện phân nước muối đậm đặc, ngăn sản phẩm hai điện cực trộn lại. Cl₂ ở anode và H₂ ở cathode.",
+      "observation": "Bọt hydrogen ở cathode và chlorine ở anode. Dung dịch phía cathode chứa NaOH.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-133",
+      "runtimeId": "rx-132",
+      "name": "Điện phân nước",
+      "equation": "2H2O → 2H2 + O2",
+      "condition": "Dùng môi trường điện ly thích hợp và điện cực phù hợp. H₂ và O₂ thu riêng, tỉ lệ mol 2 : 1.",
+      "observation": "Hai phía điện cực có bọt khí. Thể tích hydrogen gấp đôi oxygen ở cùng điều kiện.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-134",
+      "runtimeId": "rx-133",
+      "name": "Tôi vôi",
+      "equation": "CaO + H2O → Ca(OH)2",
+      "condition": "CaO phản ứng với nước và tỏa nhiệt, tạo calcium hydroxide.",
+      "observation": "Vôi hút nước, tỏa nhiệt và tạo calcium hydroxide trắng.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-135",
+      "runtimeId": "rx-134",
+      "name": "Tạo nước Javel",
+      "equation": "Cl2 + 2NaOH → NaCl + NaClO + H2O",
+      "condition": "Sơ đồ phản ứng của chlorine với dung dịch NaOH loãng, lạnh. Điều kiện nóng và đậm đặc cho sản phẩm khác.",
+      "observation": "Khí chlorine đi vào dung dịch kiềm. Dòng sản phẩm chứa hypochlorite và chloride.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-136",
+      "runtimeId": "rx-135",
+      "name": "Tổng hợp ammonia",
+      "equation": "N2 + 3H2 → 2NH3",
+      "condition": "Phản ứng thuận nghịch, xúc tác sắt, nhiệt độ và áp suất cao trong thiết bị công nghiệp. Phương trình biểu diễn chiều tạo NH₃.",
+      "observation": "Dòng khí sau thiết bị có ammonia. Khi làm lạnh trong quy trình công nghiệp, ammonia được tách ra.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-137",
+      "runtimeId": "rx-136",
+      "name": "Sản xuất sulfuric acid",
+      "equation": "SO3 + H2O → H2SO4",
+      "condition": "Phương trình tổng quát. Trong quy trình tiếp xúc, SO₂ được oxi hóa thành SO₃, SO₃ hấp thụ vào H₂SO₄ tạo oleum rồi pha loãng.",
+      "observation": "Thu dung dịch sulfuric acid sau bước pha loãng oleum.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-138",
+      "runtimeId": "rx-137",
+      "name": "Tạo ethene từ ethanol",
+      "equation": "C2H6O → C2H4 + H2O",
+      "condition": "Tách nước ethanol với xúc tác axit ở điều kiện phù hợp. Sơ đồ biểu diễn chiều tạo ethene.",
+      "observation": "Ethene thoát qua đường dẫn khí, nước là sản phẩm tách khỏi ethanol.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-139",
+      "runtimeId": "rx-138",
+      "name": "Tạo ethyl acetate",
+      "equation": "C2H4O2 + C2H6O → C4H8O2 + H2O",
+      "condition": "Axit acetic và ethanol tạo ethyl acetate trong phản ứng thuận nghịch, có xúc tác axit và gia nhiệt.",
+      "observation": "Hơi ngưng tụ trong sinh hàn và chảy trở lại bình. Hỗn hợp sau phản ứng có ethyl acetate.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    },
+    {
+      "id": "CHEM-140",
+      "runtimeId": "rx-139",
+      "name": "Lên men tạo ethanol",
+      "equation": "C6H12O6 → 2C2H6O + 2CO2",
+      "condition": "Nấm men chuyển hóa glucose trong điều kiện ít oxygen thích hợp. Ethanol có trong dịch lên men và CO₂ thoát ra.",
+      "observation": "Bọt CO₂ thoát khỏi dịch lên men. Ethanol vẫn hòa trong dịch.",
+      "algebra": "Hệ số dương; đã qua suite cân bằng",
+      "defaultScope": {
+        "blocked": false,
+        "code": "SINGLE-EQUATION",
+        "source": "equilibrium",
+        "message": "Mô hình tỉ lượng theo một phương trình, giả định phản ứng hoàn toàn và điều kiện mô tả được đáp ứng.",
+        "next": "Không có thể tích, nồng độ và hằng số cân bằng đầy đủ để kiểm chứng mọi điều kiện thực nghiệm. Bọt, màu và thời gian chỉ minh họa."
+      },
+      "curriculumMapping": null,
+      "scientificReview": "Không suy thẩm định từng hiện tượng/điều kiện từ kết quả test. Xem báo cáo cho phạm vi đã đối chứng."
+    }
+  ]
+}

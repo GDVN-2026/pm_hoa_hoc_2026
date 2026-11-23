@@ -1,0 +1,9 @@
+Date: 2026-11-06 Asia/Saigon
+Node v20.17.0 / jsdom 26.1.0; canvas/ResizeObserver mocks; workers via node:worker_threads
+Command: node ui-tests.cjs with GDVN_JSDOM pointing to local test runtime
+Final build exit code: 0
+UI suite exit code: 0
+PASS: step solver/presentation, built HTML, direct structure drawing/3D, studio editing/save, lab search/mixing/amounts, periodic filters, board editable backups, atomic orbitals, SMILES worker, 3D UI, display controls, measurement, invalid SMILES, stale data and navigation cleanup.
+Separate simulation suite: 453 PASS, 0 FAIL.
+Separate chemistry suite: 33 assertions PASS.
+No real-browser visual, touch-device, FPS or PWA certification.

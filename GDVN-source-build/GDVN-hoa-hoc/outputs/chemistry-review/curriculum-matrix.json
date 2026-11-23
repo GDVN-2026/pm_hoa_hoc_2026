@@ -1,0 +1,465 @@
+[
+  {
+    "topicId": "TOPIC-06-01",
+    "titleInPlan": "**Lớp 6:** Giới thiệu KHTN & An toàn phòng thực hành",
+    "yccd": "KHTN 6 — Mở đầu (An toàn phòng thực hành)",
+    "equipment": "TT 38/2021 — KHTN 6: Bảng quy tắc an toàn, dụng cụ đo cơ bản",
+    "plannedWebActivity": "Trắc nghiệm tình huống xử lí sự cố & nhận diện biển báo an toàn",
+    "proposedSchoolEvidence": "HS nhận diện dụng cụ thủy tinh, kính bảo hộ tại phòng KHTN",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Các thể và sự chuyển thể",
+    "currentRoutes": []
+  },
+  {
+    "topicId": "TOPIC-06-02",
+    "titleInPlan": "**Lớp 6:** Các thể của chất & Sự chuyển thể",
+    "yccd": "KHTN 6 — Chất và sự biến đổi của chất (Các thể của chất)",
+    "equipment": "TT 38/2021 — KHTN 6: Nhiệt kế, cốc đốt, đèn cồn, giá đỡ",
+    "plannedWebActivity": "Phân loại $6$ quá trình chuyển thể & đọc đường nóng chảy `P01`",
+    "proposedSchoolEvidence": "Quan sát nước đá nóng chảy và nước sôi bằng nhiệt kế",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Oxygen, không khí và sự cháy",
+    "currentRoutes": [
+      "lab"
+    ]
+  },
+  {
+    "topicId": "TOPIC-06-03",
+    "titleInPlan": "**Lớp 6:** Oxygen và Không khí",
+    "yccd": "KHTN 6 — Chất và sự biến đổi của chất (Oxygen và không khí)",
+    "equipment": "TT 38/2021 — KHTN 6: Bình thu khí, que đóm, nến",
+    "plannedWebActivity": "Thẻ tính tỉ lệ thành phần không khí & vai trò sự cháy",
+    "proposedSchoolEvidence": "Thử que đóm tàn đỏ với khí oxygen (GV biểu diễn)",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Vật liệu, nguyên liệu, nhiên liệu và thực phẩm",
+    "currentRoutes": []
+  },
+  {
+    "topicId": "TOPIC-06-04",
+    "titleInPlan": "**Lớp 6:** Một số vật liệu thông dụng",
+    "yccd": "KHTN 6 — Một số vật liệu, nhiên liệu, nguyên liệu",
+    "equipment": "TT 38/2021 — KHTN 6: Bộ mẫu vật liệu (kim loại, nhựa, thủy tinh, cao su)",
+    "plannedWebActivity": "Ghép cặp vật liệu với tính chất chịu nhiệt, dẫn điện, tái chế",
+    "proposedSchoolEvidence": "Quan sát và thử tính dẻo, độ cứng của mẫu vật liệu thật",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Chất tinh khiết, hỗn hợp và dung dịch",
+    "currentRoutes": [
+      "solution"
+    ]
+  },
+  {
+    "topicId": "TOPIC-06-05",
+    "titleInPlan": "**Lớp 6:** Nhiên liệu, Nguyên liệu, Lương thực – Thực phẩm",
+    "yccd": "KHTN 6 — Nhiên liệu, nguyên liệu, lương thực, thực phẩm",
+    "equipment": "TT 38/2021 — KHTN 6: Tranh/mẫu nhiên liệu và nông sản",
+    "plannedWebActivity": "Bài chọn phương án sử dụng nhiên liệu an toàn, tiết kiệm",
+    "proposedSchoolEvidence": "Khảo sát nhãn năng lượng / hạn sử dụng thực phẩm",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Lọc, cô cạn và chiết",
+    "currentRoutes": [
+      "separation",
+      "studio"
+    ]
+  },
+  {
+    "topicId": "TOPIC-06-06",
+    "titleInPlan": "**Lớp 6:** Chất tinh khiết, Hỗn hợp & Tách chất",
+    "yccd": "KHTN 6 — Chất tinh khiết, hỗn hợp, phương pháp tách chất",
+    "equipment": "TT 38/2021 — KHTN 6: Phễu lọc, giấy lọc, phễu chiết, bộ chưng cất",
+    "plannedWebActivity": "Chọn quy trình tách hỗn hợp cát – muối – nước (`P01`) trên `#separation`",
+    "proposedSchoolEvidence": "HS thực hành lọc nước đục và cô cạn nước muối",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Tách bằng nam châm",
+    "currentRoutes": [
+      "separation"
+    ]
+  },
+  {
+    "topicId": "TOPIC-07-01",
+    "titleInPlan": "**Lớp 7:** Nguyên tử & Mô hình Rutherford – Bohr",
+    "yccd": "KHTN 7 — Chất và sự biến đổi của chất (Nguyên tử)",
+    "equipment": "TT 38/2021 — KHTN 7: Mô hình cấu tạo nguyên tử",
+    "plannedWebActivity": "Lắp lớp vỏ electron trên `#atom` cho $20$ nguyên tố đầu",
+    "proposedSchoolEvidence": "Vẽ sơ đồ cấu tạo nguyên tử vào phiếu thực hành",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Đọc bảng tuần hoàn và 20 nguyên tố đầu",
+    "currentRoutes": [
+      "periodic"
+    ]
+  },
+  {
+    "topicId": "TOPIC-07-02",
+    "titleInPlan": "**Lớp 7:** Nguyên tố hóa học & Ký hiệu hóa học",
+    "yccd": "KHTN 7 — Nguyên tố hóa học",
+    "equipment": "TT 38/2021 — KHTN 7: Bộ thẻ ký hiệu $20$ nguyên tố đầu",
+    "plannedWebActivity": "Ghép tên tiếng Anh IUPAC, ký hiệu và số proton ($Z = 1\\text{--}20$)",
+    "proposedSchoolEvidence": "Tra cứu ký hiệu nguyên tố trên bảng treo lớp học",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Mô hình Rutherford–Bohr",
+    "currentRoutes": [
+      "atom"
+    ]
+  },
+  {
+    "topicId": "TOPIC-07-03",
+    "titleInPlan": "**Lớp 7:** Sơ lược về Bảng tuần hoàn các nguyên tố",
+    "yccd": "KHTN 7 — Sơ lược về bảng tuần hoàn các nguyên tố hóa học",
+    "equipment": "TT 38/2021 — KHTN 7: Bảng tuần hoàn các nguyên tố hóa học",
+    "plannedWebActivity": "Xác định ô, chu kỳ, nhóm và phân loại kim loại/phi kim/khí hiếm",
+    "proposedSchoolEvidence": "Đọc vị trí nguyên tố trên bảng tuần hoàn khổ lớn",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Phân tử, đơn chất và hợp chất",
+    "currentRoutes": [
+      "molecule",
+      "reference"
+    ]
+  },
+  {
+    "topicId": "TOPIC-07-04",
+    "titleInPlan": "**Lớp 7:** Phân tử, Đơn chất, Hợp chất & Liên kết",
+    "yccd": "KHTN 7 — Phân tử; đơn chất; hợp chất; giới thiệu liên kết hóa học",
+    "equipment": "TT 38/2021 — KHTN 7: Bộ mô hình lắp ráp phân tử dạng rỗng",
+    "plannedWebActivity": "Phân loại đơn chất/hợp chất & nhận diện liên kết ion/cộng hóa trị",
+    "proposedSchoolEvidence": "Lắp ráp mô hình phân tử $\\text{H}_2, \\text{O}_2, \\text{H}_2\\text{O}, \\text{CO}_2$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Liên kết ion và cộng hóa trị",
+    "currentRoutes": [
+      "bond",
+      "reference"
+    ]
+  },
+  {
+    "topicId": "TOPIC-07-05",
+    "titleInPlan": "**Lớp 7:** Hóa trị & Công thức hóa học",
+    "yccd": "KHTN 7 — Hóa trị; công thức hóa học",
+    "equipment": "TT 38/2021 — KHTN 7: Bảng hóa trị một số nguyên tố và nhóm nguyên tử",
+    "plannedWebActivity": "Lập công thức 2 chiều từ hóa trị và từ $\\%m$ (`P02`)",
+    "proposedSchoolEvidence": "Tính phần trăm khối lượng nguyên tố trong hợp chất",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Hóa trị và công thức hóa học",
+    "currentRoutes": [
+      "structure",
+      "equation"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-01",
+    "titleInPlan": "**Lớp 8:** Biến đổi vật lí và Biến đổi hóa học",
+    "yccd": "KHTN 8 — Biến đổi vật lí và biến đổi hóa học",
+    "equipment": "TT 38/2021 — KHTN 8: Đèn cồn, ống nghiệm, đường, bột sắt, lưu huỳnh",
+    "plannedWebActivity": "Phân loại $8$ hiện tượng tự nhiên/thí nghiệm là biến đổi vật lí hay hóa học",
+    "proposedSchoolEvidence": "Quan sát thí nghiệm đun nóng đường và hòa tan muối ăn",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Biến đổi vật lí và biến đổi hóa học",
+    "currentRoutes": [
+      "lab",
+      "thermo"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-02",
+    "titleInPlan": "**Lớp 8:** Phản ứng hóa học & Năng lượng phản ứng",
+    "yccd": "KHTN 8 — Phản ứng hóa học; năng lượng của phản ứng hóa học",
+    "equipment": "TT 38/2021 — KHTN 8: Nhiệt kế, cốc thủy tinh, $\\text{CaO}, \\text{NH}_4\\text{Cl}$",
+    "plannedWebActivity": "Phân biệt phản ứng tỏa nhiệt và thu nhiệt qua dữ liệu nhiệt độ",
+    "proposedSchoolEvidence": "Đo biến thiên nhiệt độ khi hòa tan $\\text{CaO}$ hoặc $\\text{NH}_4\\text{Cl}$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Bảo toàn khối lượng và phương trình hóa học",
+    "currentRoutes": [
+      "equation"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-03",
+    "titleInPlan": "**Lớp 8:** Định luật bảo toàn khối lượng & PTHH",
+    "yccd": "KHTN 8 — Định luật bảo toàn khối lượng và phương trình hóa học",
+    "equipment": "TT 38/2021 — KHTN 8: Cân điện tử, bình tam giác, $\\text{BaCl}_2, \\text{Na}_2\\text{SO}_4$",
+    "plannedWebActivity": "Cân bằng phương trình tương tác từng bước trên `#equation`",
+    "proposedSchoolEvidence": "Cân khối lượng hệ trước và sau phản ứng kết tủa",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Mol, thể tích mol và tỉ khối khí",
+    "currentRoutes": [
+      "equation",
+      "tutor"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-04",
+    "titleInPlan": "**Lớp 8:** Mol và Tỉ khối của chất khí",
+    "yccd": "KHTN 8 — Mol và tỉ khối của chất khí",
+    "equipment": "TT 38/2021 — KHTN 8: Bộ mô hình thể tích mol chất khí",
+    "plannedWebActivity": "Đổi mol $\\leftrightarrow$ thể tích ($24{,}79\\text{ L/mol}$) và tính tỉ khối (`P03`)",
+    "proposedSchoolEvidence": "Giải bài toán thu khí nặng/nhẹ hơn không khí",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Độ tan, nồng độ và pha loãng",
+    "currentRoutes": [
+      "solution",
+      "tutor"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-05",
+    "titleInPlan": "**Lớp 8:** Dung dịch và Nồng độ dung dịch",
+    "yccd": "KHTN 8 — Dung dịch và nồng độ dung dịch",
+    "equipment": "TT 38/2021 — KHTN 8: Cân điện tử, ống đong, bình định mức, đũa thủy tinh",
+    "plannedWebActivity": "Tính độ tan, $C\\%, C_M$ và lượng pha chế trên `#solution?grade=8` (`P04`)",
+    "proposedSchoolEvidence": "HS cân $\\text{NaCl}$ và đong nước pha $100\\text{ g}$ dung dịch $10\\%$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Tính theo phương trình và hiệu suất",
+    "currentRoutes": [
+      "equation",
+      "tutor"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-06",
+    "titleInPlan": "**Lớp 8:** Tốc độ phản ứng và Chất xúc tác",
+    "yccd": "KHTN 8 — Tốc độ phản ứng và chất xúc tác",
+    "equipment": "TT 38/2021 — KHTN 8: Đá vôi dạng viên/bột, $\\text{HCl}, \\text{H}_2\\text{O}_2, \\text{MnO}_2$",
+    "plannedWebActivity": "So sánh tốc độ phản ứng theo nồng độ, nhiệt độ, diện tích bề mặt, xúc tác",
+    "proposedSchoolEvidence": "Thí nghiệm $\\text{CaCO}_3$ dạng hạt vs. bột với dung dịch $\\text{HCl}$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Tốc độ phản ứng và chất xúc tác",
+    "currentRoutes": [
+      "thermo"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-07",
+    "titleInPlan": "**Lớp 8:** Acid – Base – Thang pH",
+    "yccd": "KHTN 8 — Acid; Base; Thang pH",
+    "equipment": "TT 38/2021 — KHTN 8: Giấy quỳ tím, giấy chỉ thị pH, dung dịch $\\text{HCl, NaOH}$",
+    "plannedWebActivity": "Kéo thanh đo $\\text{pH}$ quan sát vùng chuyển màu quỳ tím (`P04`)",
+    "proposedSchoolEvidence": "Thử pH của nước chanh, nước xà phòng, giấm ăn bằng giấy chỉ thị",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Acid, base, pH, oxide và muối",
+    "currentRoutes": [
+      "solution",
+      "ionic",
+      "lab"
+    ]
+  },
+  {
+    "topicId": "TOPIC-08-08",
+    "titleInPlan": "**Lớp 8:** Oxide – Muối – Phân bón hóa học",
+    "yccd": "KHTN 8 — Oxide; Muối; Phân bón hóa học",
+    "equipment": "TT 38/2021 — KHTN 8: Bộ mẫu phân bón hóa học ($\\text{NPK}$, ure, superphosphate)",
+    "plannedWebActivity": "Phân loại $4$ loại oxide, gọi tên muối & tính hàm lượng dinh dưỡng nhãn `NPK`",
+    "proposedSchoolEvidence": "Đọc thông số thành phần trên bao bì phân bón thực tế",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Phân bón hóa học",
+    "currentRoutes": []
+  },
+  {
+    "topicId": "TOPIC-09-01",
+    "titleInPlan": "**Lớp 9:** Tính chất chung của kim loại & Dãy hoạt động",
+    "yccd": "KHTN 9 — Tính chất chung của kim loại; dãy hoạt động hóa học",
+    "equipment": "TT 38/2021 — KHTN 9: Bộ mẫu kim loại ($\\text{Mg, Al, Zn, Fe, Cu}$), dung dịch muối",
+    "plannedWebActivity": "Ghép dãy hoạt động kim loại $12$ vị trí theo $3$ môi trường thí nghiệm (`P05`)",
+    "proposedSchoolEvidence": "Thí nghiệm $\\text{Fe} + \\text{CuSO}_4$ và $\\text{Zn} + \\text{HCl}$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Kim loại, phi kim và dãy hoạt động",
+    "currentRoutes": [
+      "lab",
+      "electro",
+      "periodic"
+    ]
+  },
+  {
+    "topicId": "TOPIC-09-02",
+    "titleInPlan": "**Lớp 9:** Tách kim loại & Sử dụng hợp kim",
+    "yccd": "KHTN 9 — Tách kim loại và việc sử dụng hợp kim",
+    "equipment": "TT 38/2021 — KHTN 9: Mẫu quặng/hợp kim (gang, thép, duralumin)",
+    "plannedWebActivity": "Chọn phương pháp tách kim loại phù hợp theo độ hoạt động hóa học",
+    "proposedSchoolEvidence": "Khảo sát mẫu vật dụng bằng gang, thép không gỉ tại trường",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Tách kim loại, hợp kim và tài nguyên",
+    "currentRoutes": [
+      "lab",
+      "electrolysis"
+    ]
+  },
+  {
+    "topicId": "TOPIC-09-03",
+    "titleInPlan": "**Lớp 9:** Sự khác nhau cơ bản giữa Phi kim và Kim loại",
+    "yccd": "KHTN 9 — Sự khác nhau cơ bản giữa phi kim và kim loại",
+    "equipment": "TT 38/2021 — KHTN 9: Mẫu lưu huỳnh, than chì, dây đồng, dây nhôm",
+    "plannedWebActivity": "Bảng đối chiếu tính chất vật lí – hóa học và ứng dụng của $\\text{C, S, Cl}_2$",
+    "proposedSchoolEvidence": "Thử tính dẫn điện của lõi than chì bút chì và dây đồng",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Hợp chất hữu cơ và hydrocarbon",
+    "currentRoutes": [
+      "structure",
+      "molecule"
+    ]
+  },
+  {
+    "topicId": "TOPIC-09-04",
+    "titleInPlan": "**Lớp 9:** Giới thiệu hợp chất hữu cơ & Hydrocarbon",
+    "yccd": "KHTN 9 — Hợp chất hữu cơ; Alkane; Alkene",
+    "equipment": "TT 38/2021 — KHTN 9: Bộ mô hình phân tử $\\text{CH}_4, \\text{C}_2\\text{H}_6, \\text{C}_2\\text{H}_4$",
+    "plannedWebActivity": "Phân loại hợp chất hữu cơ/vô cơ & quan sát liên kết đơn/đôi trên `#molecule`",
+    "proposedSchoolEvidence": "Lắp mô hình phân tử methane và ethylene",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Ethanol, độ cồn và acetic acid",
+    "currentRoutes": [
+      "reference",
+      "structure"
+    ]
+  },
+  {
+    "topicId": "TOPIC-09-05",
+    "titleInPlan": "**Lớp 9:** Ethylic alcohol và Acetic acid",
+    "yccd": "KHTN 9 — Ethylic alcohol; Acetic acid",
+    "equipment": "TT 38/2021 — KHTN 9: Cồn $96^\\circ$, giấm ăn, đá vôi, $\\text{NaHCO}_3$",
+    "plannedWebActivity": "Nhận diện nhóm chức $-\\text{OH}, -\\text{COOH}$ và phản ứng ester hóa",
+    "proposedSchoolEvidence": "Thử phản ứng của acetic acid với đá vôi và quỳ tím",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Lipid, carbohydrate và protein",
+    "currentRoutes": [
+      "mechanism",
+      "molecule"
+    ]
+  },
+  {
+    "topicId": "TOPIC-09-06",
+    "titleInPlan": "**Lớp 9:** Lipid – Carbohydrate – Protein – Polymer",
+    "yccd": "KHTN 9 — Lipid; Carbohydrate; Protein; Polymer",
+    "equipment": "TT 38/2021 — KHTN 9: Dầu ăn, tinh bột, dung dịch iodine, lòng trắng trứng, mẫu nhựa",
+    "plannedWebActivity": "Phân loại nhóm chất sinh học & polymer thiên nhiên / tổng hợp",
+    "proposedSchoolEvidence": "Thử hồ tinh bột với dung dịch iodine và đông tụ protein",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Polymer và vật liệu",
+    "currentRoutes": []
+  },
+  {
+    "topicId": "TOPIC-10-01",
+    "titleInPlan": "**Lớp 10:** Cấu tạo nguyên tử & Phân bố electron vào orbital",
+    "yccd": "Hóa học 10 (TT 32/2018) — Chuyên đề Cấu tạo nguyên tử",
+    "equipment": "TT 39/2021 — Mục B.I.2: Mô hình orbital nguyên tử $s, p, d$",
+    "plannedWebActivity": "Viết cấu hình electron & điền mũi tên vào ô orbital (`P06`)",
+    "proposedSchoolEvidence": "Luyện tập biểu diễn cấu hình nguyên tố $Z = 1\\text{--}30$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Quy luật tuần hoàn",
+    "currentRoutes": [
+      "periodic",
+      "config",
+      "atom"
+    ]
+  },
+  {
+    "topicId": "TOPIC-10-02",
+    "titleInPlan": "**Lớp 10:** Bảng tuần hoàn & Xu hướng biến đổi tính chất",
+    "yccd": "Hóa học 10 (TT 32/2018) — Chuyên đề Bảng tuần hoàn",
+    "equipment": "TT 39/2021 — Mục B.I.1: Bảng tuần hoàn các nguyên tố hóa học THPT",
+    "plannedWebActivity": "So sánh bán kính, độ âm điện, tính kim loại/phi kim & hydroxide chu kỳ 3 (`P07`)",
+    "proposedSchoolEvidence": "Thí nghiệm so sánh phản ứng $\\text{Na, Mg, Al}$ với nước/acid",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Quy tắc octet, Lewis và tương tác giữa phân tử",
+    "currentRoutes": [
+      "bond",
+      "molecule"
+    ]
+  },
+  {
+    "topicId": "TOPIC-10-03",
+    "titleInPlan": "**Lớp 10:** Liên kết hóa học & Tương tác liên phân tử",
+    "yccd": "Hóa học 10 (TT 32/2018) — Chuyên đề Liên kết hóa học",
+    "equipment": "TT 39/2021 — Mục B.I.2: Bộ mô hình tinh thể ion $\\text{NaCl}$, kim cương, nước đá",
+    "plannedWebActivity": "Vẽ công thức Lewis $6$ phân tử (`P06`) & giải thích nhiệt độ sôi qua liên kết H (`P07`)",
+    "proposedSchoolEvidence": "Thí nghiệm thử tính dẫn điện của dung dịch $\\text{NaCl}$ và đường",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Halogen",
+    "currentRoutes": [
+      "periodic",
+      "ionic",
+      "lab"
+    ]
+  },
+  {
+    "topicId": "TOPIC-11-01",
+    "titleInPlan": "**Lớp 11:** Cân bằng hóa học ($K_c, Q_c$ & Nguyên lí Le Chatelier)",
+    "yccd": "Hóa học 11 (TT 32/2018) — Chuyên đề Cân bằng hóa học",
+    "equipment": "TT 39/2021 — Mục A.1: Dụng cụ thủy tinh thí nghiệm cân bằng $\\text{NO}_2 \\rightleftharpoons \\text{N}_2\\text{O}_4$",
+    "plannedWebActivity": "Tính $Q_c$, so sánh $Q_c$ với $K_c$ trên thước logarit (`P08`) & dự đoán chuyển dịch",
+    "proposedSchoolEvidence": "Quan sát sự đổi màu hệ cân bằng theo nhiệt độ (GV biểu diễn)",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Nitrogen và sulfur",
+    "currentRoutes": [
+      "ionic",
+      "reference",
+      "solution"
+    ]
+  },
+  {
+    "topicId": "TOPIC-11-02",
+    "titleInPlan": "**Lớp 11:** Sự điện li, Thuyết Brønsted – Lowry, pH & Chuẩn độ",
+    "yccd": "Hóa học 11 (TT 32/2018) — Cân bằng trong dung dịch nước",
+    "equipment": "TT 39/2021 — Mục A.1–A.6: Burette $25\\text{ mL}$, pipette $10\\text{ mL}$, bình tam giác, chỉ thị",
+    "plannedWebActivity": "Mô phỏng giọt chuẩn độ $0{,}05\\text{ mL}$ trên `#solution?grade=11` (`P08`)",
+    "proposedSchoolEvidence": "HS thao tác chuẩn độ $\\text{NaOH}$ bằng $\\text{HCl}$ trên burette thật",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Hydrocarbon và dẫn xuất hữu cơ",
+    "currentRoutes": [
+      "structure",
+      "mechanism"
+    ]
+  },
+  {
+    "topicId": "TOPIC-11-03",
+    "titleInPlan": "**Lớp 11:** Đại cương hữu cơ, Hydrocarbon & Dẫn xuất chức",
+    "yccd": "Hóa học 11 (TT 32/2018) — Hóa học hữu cơ lớp 11",
+    "equipment": "TT 39/2021 — Mục B.I.2: Bộ mô hình phân tử hữu cơ không gian",
+    "plannedWebActivity": "Nhận diện nhóm chức (alcohol, phenol, aldehyde, ketone, carboxylic acid)",
+    "proposedSchoolEvidence": "Thử phản ứng tráng bạc của aldehyde và phân biệt phenol",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Alcohol, phenol, carbonyl và carboxylic acid",
+    "currentRoutes": [
+      "reference",
+      "structure"
+    ]
+  },
+  {
+    "topicId": "TOPIC-12-01",
+    "titleInPlan": "**Lớp 12:** Ester – Lipid – Xà phòng & Carbohydrate",
+    "yccd": "Hóa học 12 (TT 32/2018) — Ester – Lipid; Carbohydrate",
+    "equipment": "TT 39/2021 — Mục A.7 & B.II.1.2: Bộ mô hình 3D carbohydrate",
+    "plannedWebActivity": "Quan sát $4$ mô hình 3D carbohydrate (PubChem CID) & phân biệt đường khử (`P10`)",
+    "proposedSchoolEvidence": "Thí nghiệm thủy phân ester và phản ứng thuốc thử Tollens",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Ester, lipid và carbohydrate",
+    "currentRoutes": [
+      "mechanism",
+      "reference"
+    ]
+  },
+  {
+    "topicId": "TOPIC-12-02",
+    "titleInPlan": "**Lớp 12:** Amine – Amino acid – Peptide – Protein",
+    "yccd": "Hóa học 12 (TT 32/2018) — Hợp chất chứa nitrogen",
+    "equipment": "TT 39/2021 — Mục A.7 & B.II.1.2: Mô hình cấu trúc peptide",
+    "plannedWebActivity": "Quan sát mô hình 3D Tripeptide `CID 7009585`, viết ion lưỡng cực (`P10`)",
+    "proposedSchoolEvidence": "Phản ứng màu biuret của lòng trắng trứng với $\\text{Cu(OH)}_2$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Amine, amino acid, peptide và protein",
+    "currentRoutes": [
+      "molecule"
+    ]
+  },
+  {
+    "topicId": "TOPIC-12-03",
+    "titleInPlan": "**Lớp 12:** Pin điện hóa và Điện phân",
+    "yccd": "Hóa học 12 (TT 32/2018) — Pin điện và điện phân",
+    "equipment": "TT 39/2021 — Mục A.4–A.5: Bộ pin điện hóa Zn–Cu, bình điện phân, nguồn một chiều",
+    "plannedWebActivity": "Xác định dấu điện cực, tính $E^\\circ_{\\text{pin}}$ và khối lượng điện phân (`P09`)",
+    "proposedSchoolEvidence": "Lắp pin điện hóa Zn–Cu đo suất điện động và điện phân $\\text{CuSO}_4$",
+    "verificationStatus": "pending",
+    "currentWebTopic": "Kim loại nhóm 1, nhóm 2 và dãy chuyển tiếp thứ nhất",
+    "currentRoutes": [
+      "periodic",
+      "electro",
+      "complex",
+      "electrolysis"
+    ]
+  }
+]

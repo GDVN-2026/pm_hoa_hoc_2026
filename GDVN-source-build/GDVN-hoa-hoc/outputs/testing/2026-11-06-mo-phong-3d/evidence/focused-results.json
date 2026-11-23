@@ -1,0 +1,79 @@
+{
+  "time": "2026-11-06T12:52:58.592Z",
+  "node": "v20.17.0",
+  "results": [
+    {
+      "id": "LAB-AMOUNT-CHANGE-INVALIDATES-SIMULATION",
+      "status": "FAIL",
+      "actual": "Old simulated reaction remains after zeroing reagent",
+      "stack": "AssertionError [ERR_ASSERTION]: Old simulated reaction remains after zeroing reagent\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:54:212\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at process.processTimers (node:internal/timers:516:9)\n    at async test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:111)\n    at async main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:54:2)",
+      "evidence": {
+        "page": "lab",
+        "result": "Kết tủaCuSO4 + 2NaOH → Cu(OH)2 + Na2SO4Tạo thành: Đồng(II) hydroxide (Cu(OH)2) + Natri sulfate (Na2SO4)Hiện tượng: Kết tủa xanh lam xuất hiện.Điều kiện: Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+        "amount": "0",
+        "stage": "reacting"
+      }
+    },
+    {
+      "id": "LAB-EDIT-DURING-REACTION",
+      "status": "FAIL",
+      "actual": "Reaction completed for stale positive amount while current input is zero",
+      "stack": "AssertionError [ERR_ASSERTION]: Reaction completed for stale positive amount while current input is zero\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:55:180\n    at async test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:111)\n    at async main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:55:2)",
+      "evidence": {
+        "page": "lab",
+        "result": "Kết tủaCuSO4 + 2NaOH → Cu(OH)2 + Na2SO4Tạo thành: Đồng(II) hydroxide (Cu(OH)2) + Natri sulfate (Na2SO4)Hiện tượng: Kết tủa xanh lam xuất hiện.Điều kiện: Trộn dung dịch chứa các ion tương ứng. Kết tủa xuất hiện khi tích ion vượt tích số tan. Với Al(OH)₃, tránh dư bazơ mạnh trong cảnh tạo kết tủa.",
+        "amount": "0",
+        "stage": "reacting"
+      }
+    },
+    {
+      "id": "MODEL-LIBRARY-4",
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n",
+      "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:57:200\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:117)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:57:43)",
+      "evidence": {
+        "page": "molecule",
+        "result": "H2Hydrogen · M = 2,016 g/mol · 2 nguyên tử trong mô hìnhPhân tử hai nguyên tử",
+        "measurement": "Không đo được góc với các điểm trùng nhau.",
+        "smiles": "CCO"
+      }
+    },
+    {
+      "id": "MODEL-LIBRARY-5",
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n",
+      "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:57:200\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:117)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:57:43)",
+      "evidence": {
+        "page": "molecule",
+        "result": "O2Oxygen · M = 31,998 g/mol · 2 nguyên tử trong mô hìnhPhân tử hai nguyên tử",
+        "measurement": "Không đo được góc với các điểm trùng nhau.",
+        "smiles": "CCO"
+      }
+    },
+    {
+      "id": "MODEL-LIBRARY-6",
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n",
+      "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:57:200\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:117)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:57:43)",
+      "evidence": {
+        "page": "molecule",
+        "result": "N2Nitrogen · M = 28,014 g/mol · 2 nguyên tử trong mô hìnhPhân tử hai nguyên tử",
+        "measurement": "Không đo được góc với các điểm trùng nhau.",
+        "smiles": "CCO"
+      }
+    },
+    {
+      "id": "MODEL-INPUT-CHANGE-IN-FLIGHT",
+      "status": "FAIL",
+      "actual": "Ethanol result appears while input now says benzene, without stale-result warning",
+      "stack": "AssertionError [ERR_ASSERTION]: Ethanol result appears while input now says benzene, without stale-result warning\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:61:191\n    at async test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:111)\n    at async main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:61:2)",
+      "evidence": {
+        "page": "molecule",
+        "result": "C2H6OCCO · M = 46,069 g/mol · 9 nguyên tử trong mô hình",
+        "measurement": "Chọn các nguyên tử để đo.",
+        "smiles": "c1ccccc1"
+      }
+    }
+  ],
+  "errors": []
+}

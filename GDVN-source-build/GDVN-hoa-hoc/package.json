@@ -1,0 +1,29 @@
+{
+  "name": "gdvn-hoa-hoc",
+  "version": "1.6.0-pilot2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node tests.mjs",
+    "build": "node build.mjs",
+    "test:advanced": "node advanced-tests.mjs",
+    "test:ui": "node ui-tests.cjs",
+    "test:atomic": "node atomic-tests.mjs",
+    "test:studio-lab": "node studio-lab-tests.mjs",
+    "test:simulation": "node simulation-tests.cjs",
+    "test:chemistry-review": "node chemistry-review-tests.mjs",
+    "test:physical-chemistry": "node physical-chemistry-tests.mjs",
+    "test:structure": "node structure-tests.mjs",
+    "test:teaching": "node teaching-tests.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "jsdom": "26.1.0"
+  },
+  "author": "Nguyễn Thanh Vy",
+  "license": "UNLICENSED"
+}
+
+
+

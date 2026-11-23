@@ -1,0 +1,8 @@
+Date: 2026-11-06 Asia/Saigon
+Node: v20.17.0
+Source: I:/My Drive/VyIT/Hóa học trực quan/files/GDVN-source-build/GDVN-hoa-hoc
+Command: node ui-tests.cjs
+GDVN_JSDOM=C:/Users/hp/.codex/visualizations/2026/11/06/01a1b0dc-ea44-7001-bf83-399dd710dec8/test-runtime/node_modules/jsdom
+Exit: 0
+PASS: step solver/presentation, built HTML, direct structure drawing/3D, studio editing/save, lab search/mixing/amounts, periodic filters, board editable backups, atomic orbitals, SMILES worker, 3D UI, display controls, measurement, invalid SMILES, stale data and navigation cleanup.
+Limit: JSDOM with mocked canvas and Node Worker adapter; no real-browser visual validation.

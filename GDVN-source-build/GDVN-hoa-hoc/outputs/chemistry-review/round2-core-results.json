@@ -1,0 +1,94 @@
+{
+  "suites": [
+    "tests.mjs",
+    "advanced-tests.mjs",
+    "atomic-tests.mjs",
+    "structure-tests.mjs",
+    "studio-lab-tests.mjs",
+    "teaching-tests.mjs",
+    "chemistry-review-tests.mjs",
+    "physical-chemistry-tests.mjs"
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "47f869",
+        "wall_time_seconds": 1.3048022000000001,
+        "exit_code": 0,
+        "original_token_count": 50,
+        "output": "PASS: formula parser, all 30 reactions, ionic balancing, 118 electron configurations, pH, calculator.\nPASS: limiting reagent, excess, co-limiting amounts, gram conversion, yield and invalid inputs.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "fc8d47",
+        "wall_time_seconds": 3.4219171,
+        "exit_code": 0,
+        "original_token_count": 31,
+        "output": "PASS: SMILES formula, coordinates, bond distances, XYZ, invalid structures, symbolic algebra/calculus and compiled workers.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "85484c",
+        "wall_time_seconds": 1.9972959000000001,
+        "exit_code": 0,
+        "original_token_count": 35,
+        "output": "PASS: 118 positions/groups/shells, SVG exports, hydrogen 1s normalization, radial/angular nodes, all 14 orbitals and hydrogenic Z scaling.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b322a3",
+        "wall_time_seconds": 2.5990659000000003,
+        "exit_code": 0,
+        "original_token_count": 30,
+        "output": "PASS: structure templates/formulas, graph validation, valence errors and drawing → SMILES → 3D formula consistency.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "6ea66e",
+        "wall_time_seconds": 1.5665890999999998,
+        "exit_code": 0,
+        "original_token_count": 31,
+        "output": "PASS: 34 apparatus, 12 validated templates, JSON roundtrip/invalid input, 140 unique balanced reactions and pair lookup.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "19c2a2",
+        "wall_time_seconds": 1.3546489,
+        "exit_code": 0,
+        "original_token_count": 36,
+        "output": "PASS: 8 original lessons, 24 question integrity/sampling, units, dilution restrictions, water-corrected pH, limiting/excess and invalid inputs.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "826253",
+        "wall_time_seconds": 1.2495741,
+        "exit_code": 0,
+        "original_token_count": 33,
+        "output": "PASS: 33 chemistry assertions (scope boundaries, mol/g, invalid pH, extreme dilution, titration directions/equivalence/endpoints).\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "2dae5d",
+        "wall_time_seconds": 1.2475093,
+        "exit_code": 0,
+        "original_token_count": 35,
+        "output": "PASS: 97 physical chemistry checks: reference cells/electron counts, Q, Faraday, missing enthalpy, stable equilibrium, 45 electrode pairs.\n"
+      }
+    }
+  ]
+}

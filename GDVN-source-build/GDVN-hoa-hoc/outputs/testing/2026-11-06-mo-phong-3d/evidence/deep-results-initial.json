@@ -1,0 +1,709 @@
+{
+  "time": "2026-11-06T12:50:38.051Z",
+  "node": "v20.17.0",
+  "results": [
+    {
+      "id": "LAB-ALL-rx-0",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-1",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-2",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-3",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-4",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-5",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-6",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-7",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-8",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-9",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-10",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-11",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-12",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-13",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-14",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-15",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-16",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-17",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-18",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-19",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-20",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-21",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-22",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-23",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-24",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-25",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-26",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-27",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-28",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-29",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-30",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-31",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-32",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-33",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-34",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-35",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-36",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-37",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-38",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-39",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-40",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-41",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-42",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-43",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-44",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-45",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-46",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-47",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-48",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-49",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-50",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-51",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-52",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-53",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-54",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-55",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-56",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-57",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-58",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-59",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-60",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-61",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-62",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-63",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-64",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-65",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-66",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-67",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-68",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-69",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-70",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-71",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-72",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-73",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-74",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-75",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-76",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-77",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-78",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-79",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-80",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-81",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-82",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-83",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-84",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-85",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-86",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-87",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-88",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-89",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-90",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-91",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-92",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-93",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-94",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-95",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-96",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-97",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-98",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-99",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-100",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-101",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-102",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-103",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-104",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-105",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-106",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-107",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-108",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-109",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-110",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-111",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-112",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-113",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-114",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-115",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-116",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-117",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-118",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-119",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-120",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-121",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-122",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-123",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-124",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-125",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-126",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-127",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-128",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-129",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-130",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-131",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-132",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-133",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-134",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-135",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-136",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-137",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-138",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ALL-rx-139",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-ZERO-ALL",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-INVALID-AMOUNTS",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-RESET-CANCELS-TIMERS",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-FILTER-CANCELS-TIMERS",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-PAIR-CHANGE-INVALIDATES",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-COLOUR-RESET",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB-UNIT-CHANGE-INVALIDATES",
+      "status": "FAIL",
+      "actual": "Old quantitative result retained after mol→g change",
+      "stack": "AssertionError [ERR_ASSERTION]: Old quantitative result retained after mol→g change\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:52:229\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:38)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:52:8)"
+    },
+    {
+      "id": "LAB-AMOUNT-CHANGE-INVALIDATES-SIMULATION",
+      "status": "FAIL",
+      "actual": "Old simulated reaction remains after zeroing reagent",
+      "stack": "AssertionError [ERR_ASSERTION]: Old simulated reaction remains after zeroing reagent\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:53:212\n    at async test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:32)\n    at async main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:53:2)"
+    },
+    {
+      "id": "LAB-EDIT-DURING-REACTION",
+      "status": "FAIL",
+      "actual": "Reaction completed for stale positive amount while current input is zero",
+      "stack": "AssertionError [ERR_ASSERTION]: Reaction completed for stale positive amount while current input is zero\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:54:152\n    at async test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:32)\n    at async main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:54:2)"
+    },
+    {
+      "id": "MODEL-LIBRARY-0",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-1",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-2",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-3",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-4",
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n",
+      "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:56:200\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:38)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:56:43)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:545:9)\n    at process.processTimers (node:internal/timers:519:7)"
+    },
+    {
+      "id": "MODEL-LIBRARY-5",
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n",
+      "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:56:200\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:38)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:56:43)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:545:9)\n    at process.processTimers (node:internal/timers:519:7)"
+    },
+    {
+      "id": "MODEL-LIBRARY-6",
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n",
+      "stack": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok($('measure-result').textContent.includes('Å'))\n\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:56:200\n    at test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:38)\n    at main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:56:43)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:545:9)\n    at process.processTimers (node:internal/timers:519:7)"
+    },
+    {
+      "id": "MODEL-LIBRARY-7",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-8",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-9",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-10",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-LIBRARY-11",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-CONTROLS",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-GENERATE-CCO",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-GENERATE-c1ccccc1",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-GENERATE-CC(=O)O",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-GENERATE-N[C@@H](C)C(=O)O",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-INVALID-RECOVERS",
+      "status": "PASS"
+    },
+    {
+      "id": "MODEL-INPUT-CHANGE-IN-FLIGHT",
+      "status": "FAIL",
+      "actual": "Ethanol result appears while input now says benzene, without stale-result warning",
+      "stack": "AssertionError [ERR_ASSERTION]: Ethanol result appears while input now says benzene, without stale-result warning\n    at C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:60:191\n    at async test (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:8:32)\n    at async main (C:\\Users\\hp\\.codex\\visualizations\\2026\\11\\06\\01a1b0dc-ea44-7001-bf83-399dd710dec8\\test-runtime\\deep-test.cjs:60:2)"
+    },
+    {
+      "id": "MODEL-NAVIGATION-CANCELS-WORKER",
+      "status": "PASS"
+    },
+    {
+      "id": "VSEPR-ALL",
+      "status": "PASS"
+    },
+    {
+      "id": "COMPLEX-ALL",
+      "status": "PASS"
+    },
+    {
+      "id": "NO-UNHANDLED-JSDOM-ERRORS",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

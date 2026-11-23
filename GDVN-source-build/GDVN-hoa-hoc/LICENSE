@@ -1,0 +1,12 @@
+GDVN application source
+Copyright (c) 2026 Nguyễn Thanh Vy. All rights reserved.
+
+Phần mã ứng dụng GDVN được ghi công cho Nguyễn Thanh Vy.
+Không cấp quyền sao chép, sửa đổi, phân phối hoặc sử dụng lại phần mã này
+nếu chưa có sự đồng ý của chủ sở hữu quyền tương ứng, trừ khi pháp luật
+áp dụng cho phép hoặc có một thỏa thuận riêng.
+
+THIRD-PARTY COMPONENTS
+Third-party libraries and other third-party materials remain subject to
+their own copyright notices and licenses. This notice does not override
+or replace those licenses. See THIRD-PARTY.md and vendor/ license files.

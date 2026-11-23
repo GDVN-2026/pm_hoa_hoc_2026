@@ -1,0 +1,83 @@
+{
+  "suites": [
+    "tests.mjs",
+    "studio-lab-tests.mjs",
+    "structure-tests.mjs",
+    "advanced-tests.mjs",
+    "atomic-tests.mjs",
+    "teaching-tests.mjs",
+    "chemistry-review-tests.mjs"
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "ea5f6e",
+        "wall_time_seconds": 1.1395508,
+        "exit_code": 0,
+        "original_token_count": 50,
+        "output": "PASS: formula parser, all 30 reactions, ionic balancing, 118 electron configurations, pH, calculator.\nPASS: limiting reagent, excess, co-limiting amounts, gram conversion, yield and invalid inputs.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "dab990",
+        "wall_time_seconds": 1.3056303,
+        "exit_code": 0,
+        "original_token_count": 31,
+        "output": "PASS: 34 apparatus, 12 validated templates, JSON roundtrip/invalid input, 140 unique balanced reactions and pair lookup.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c84338",
+        "wall_time_seconds": 2.3387476,
+        "exit_code": 0,
+        "original_token_count": 30,
+        "output": "PASS: structure templates/formulas, graph validation, valence errors and drawing → SMILES → 3D formula consistency.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "7c43a5",
+        "wall_time_seconds": 3.0083347,
+        "exit_code": 0,
+        "original_token_count": 31,
+        "output": "PASS: SMILES formula, coordinates, bond distances, XYZ, invalid structures, symbolic algebra/calculus and compiled workers.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c360b3",
+        "wall_time_seconds": 1.6761794,
+        "exit_code": 0,
+        "original_token_count": 35,
+        "output": "PASS: 118 positions/groups/shells, SVG exports, hydrogen 1s normalization, radial/angular nodes, all 14 orbitals and hydrogenic Z scaling.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "48faee",
+        "wall_time_seconds": 1.9909631,
+        "exit_code": 0,
+        "original_token_count": 36,
+        "output": "PASS: 8 original lessons, 24 question integrity/sampling, units, dilution restrictions, water-corrected pH, limiting/excess and invalid inputs.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c3a497",
+        "wall_time_seconds": 0.9948935,
+        "exit_code": 0,
+        "original_token_count": 33,
+        "output": "PASS: 33 chemistry assertions (scope boundaries, mol/g, invalid pH, extreme dilution, titration directions/equivalence/endpoints).\n"
+      }
+    }
+  ]
+}
